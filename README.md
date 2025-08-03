@@ -5,8 +5,8 @@
 
 ## [Usage]
 
-#### K-medoids Anchor Clustering   
- - You extract anchor box priors from all instances' boxes at first.
+####  Anchor Clustering   
+ - extract anchor box from all instances boxes.
 
  ```python
 python kmedoids_anchor.py --exp my_test --data voc.yaml  --n-cluster 9
